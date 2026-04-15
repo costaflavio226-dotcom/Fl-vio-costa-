@@ -1,2 +1,35 @@
-# Fl-vio-costa-
-Imagem 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Flávio Costa</h1>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#projetos">Projetos</a>
+  </nav>
+</header>
+
+<section id="sobre">
+  <h2>Sobre mim</h2>
+  <p>Sou desenvolvedor iniciante aprendendo HTML, CSS e JavaScript.</p>
+</section>
+
+<section id="projetos">
+  <h2>Meus Projetos</h2>
+  <div id="lista-projetos"></div>
+</section>
+
+<footer>
+  <p>© 2026 - Flávio Costa</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
